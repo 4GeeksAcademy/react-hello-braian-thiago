@@ -1,18 +1,19 @@
 import React from "react";
 import Navbar from "./Navbar";
 import CardLarge from "./CardLarge";
+import Cards from "./Cards";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
-      <h1>Bienvenido a mi página</h1>
       <div className="container">
-        <CardLarge />
+        <CardLarge titulo="A Warm Welcome!" texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, totam itaque. Sapiente non illum dolorem officia ex ipsum consequatur, fugiat odit doloribus! Recusandae amet impedit saepe temporibus ipsum ducimus esse." /> 
+        <Cards />
       </div>
       <p>Este es el Home</p>
     </div>
   );
 };
-//esto es para prueba de commit
+
 export default Home;
