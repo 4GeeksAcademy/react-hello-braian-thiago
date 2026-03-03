@@ -2,9 +2,10 @@ import React from 'react';
 
 const Cards = () => {
     return (
-        <div class="container-fluid row row-cols-4 g-4 mt-4 mb-5">
+        <div class="container-fluid mt-4 mb-5">
+            <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4"></div>
             <div class="col">
-                <div class="card">
+                <div class="card h-100">
                     <img src="https://www.argentinapodcastera.com.ar/wp-content/uploads/2015/04/FONDO-500x325.jpg" class="card-img-top" alt="" />
                     <div class="card-body card-body flex-grow-1 text-center">
                         <h5 class="card-title">Card title</h5>
